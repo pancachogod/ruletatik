@@ -1,0 +1,38 @@
+body {
+  background: transparent;
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  color: #fff;
+}
+#contenedor {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#ruleta {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  position: relative;
+  transition: transform 4s cubic-bezier(0.2, 0.9, 0.3, 1.1);
+}
+#puntero {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 25px solid yellow;
+  margin-bottom: 10px;
+}
+#resultado {
+  margin-top: 20px;
+  font-size: 24px;
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  max-width: 80%;
+}
