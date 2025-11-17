@@ -1,4 +1,4 @@
-const WS_URL = 'ws://localhost:3000';
+const WS_URL = 'ruletatik-production.up.railway.app';
 
 const ruleta = document.getElementById('ruleta');
 const resultadoDiv = document.getElementById('resultado');
